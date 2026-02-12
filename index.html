@@ -4,28 +4,29 @@
 		<link rel="stylesheet" href="styles.css" />
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Scoreboard</title>
 	</head>
 	<body>
 		<div class="container">
 			<div class="subcontainer">
 				<h2 class="subcontainer-h2">HOME</h2>
-				<div class="subcontainer-blackbox">0</div>
+				<div class="subcontainer-blackbox" id="home">0</div>
 				<div class="btn-group">
-					<button class="btn">+1</button>
-					<button class="btn">+2</button>
-					<button class="btn">+3</button>
+					<button class="btn" onclick="add1H()">+1</button>
+					<button class="btn" onclick="add2H()">+2</button>
+					<button class="btn" onclick="add3H()">+3</button>
 				</div>
 			</div>
 			<div class="subcontainer">
 				<h2 class="subcontainer-h2">GUEST</h2>
-				<div class="subcontainer-blackbox">0</div>
+				<div class="subcontainer-blackbox" id="guest">0</div>
 				<div class="btn-group">
-					<button class="btn">+1</button>
-					<button class="btn">+2</button>
-					<button class="btn">+3</button>
+					<button class="btn" onclick="add1G()">+1</button>
+					<button class="btn" onclick="add2G()">+2</button>
+					<button class="btn" onclick="add3G()">+3</button>
 				</div>
 			</div>
 		</div>
+		<script src="script.js"></script>
 	</body>
 </html>

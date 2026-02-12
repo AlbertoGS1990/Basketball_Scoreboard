@@ -19,6 +19,10 @@ body {
 }
 
 .subcontainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .subcontainer-h2 {
@@ -34,9 +38,11 @@ body {
 	color: #f94f6d;
 	font-size: 150px;
 	margin: 21px 0 25px 0;
+	padding: 10px;
 }
 
 .btn-group {
+	padding: 20px;
 }
 
 .btn {
