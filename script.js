@@ -53,3 +53,14 @@ function checkWinner() {
         guestScoreEl.style.border = "none";
     }
 }
+
+function reset() {
+    homeScore = 0;
+    homeScoreEl.textContent = 0
+    homeScoreEl.style.border = "none";
+
+    guestScore = 0;
+    guestScoreEl.textContent = 0
+    guestScoreEl.style.border = "none";
+
+}

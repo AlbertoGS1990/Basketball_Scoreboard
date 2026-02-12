@@ -52,3 +52,9 @@ body {
 	background-color: #1b244a;
 	font-size: 25px;
 }
+
+#btn-reset {
+	font-size: xx-large;
+	margin-top: 20px;
+	color: red;
+}
