@@ -32,7 +32,7 @@ body {
 	background-color: #080001;
 	text-align: center;
 	color: #f94f6d;
-	font-size: 90px;
+	font-size: 150px;
 	margin: 21px 0 25px 0;
 }
 
@@ -44,4 +44,5 @@ body {
 	color: #9aabd8;
 	font-family: cursed_timer;
 	background-color: #1b244a;
+	font-size: 25px;
 }
