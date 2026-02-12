@@ -60,3 +60,16 @@ body {
 	border-color: red;
 	margin-bottom: 68px;
 }
+
+#btn-reset.btn:active {
+	font-size: 50px;
+}
+
+.btn:active {
+	border-color: greenyellow;
+}
+
+.btn:hover,
+.btn:focus {
+	font-size: 30px;
+}
